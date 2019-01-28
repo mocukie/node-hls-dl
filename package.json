@@ -1,0 +1,28 @@
+{
+  "name": "hls-dl",
+  "version": "0.0.1",
+  "description": "Just a simple HLS downloader.",
+  "main": "src/index.js",
+  "bin": "src/cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src/*.js || true",
+    "lintFix": "eslint --fix src/*.js  || true"
+  },
+  "author": "mocukie",
+  "license": "MIT",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/mocukie/node-hls-dl.git"
+  },
+  "dependencies": {
+    "colors": "^1.3.3",
+    "commander": "^2.19.0",
+    "follow-redirects": "^1.6.1",
+    "human-format": "^0.10.1",
+    "m3u8-parser": "^4.3.0"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  }
+}
